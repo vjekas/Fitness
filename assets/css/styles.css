@@ -798,6 +798,12 @@ img {
 .footer__copy {
    font-size: var(--smaller-font-size);
    color: var(--text-color-light);
+   display: flex;
+}
+
+.footer__copy i {
+   padding-top: 1.5px;
+   padding-right: 5px;
 }
 
 .footer__message {
