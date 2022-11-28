@@ -616,6 +616,10 @@ img {
    color: var(--title-color-black);
 }
 
+.pricing__item-opacity {
+   opacity: 0.3;
+}
+
 /*=============== CALCULATE ===============*/
 .calculate {
    padding-bottom: 0;
@@ -855,7 +859,7 @@ img {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 350px) {
    .container {
       margin-left: 1rem;
       margin-right: 1rem;
@@ -886,12 +890,16 @@ img {
       padding: 1.5rem;
    }
 
-   .prijavise__container {
+   /* .prijavise__container {
       width: 250px;
-   }
+   } */
 
    .footer__content {
       grid-template-columns: 1fr;
+   }
+
+   .footer__form {
+      width: 245px;
    }
 
    .footer__logo {
@@ -900,6 +908,12 @@ img {
 
    .footer__description {
       text-align: center;
+   }
+}
+
+@media screen and (min-width: 360px) {
+   .logos__container {
+      margin-left: 12%;
    }
 }
 
